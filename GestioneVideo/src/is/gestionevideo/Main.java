@@ -32,6 +32,11 @@ public class Main {
 
 		VideoEvento v2 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
+		nome_evento = "Partita Udinese-Napoli";
+
+		data_evento = LocalDate.of(2019, Month.DECEMBER, 7);
+
+		VideoEvento v5 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
 
 		nome_evento = "Partita Napoli-Sampdoria";
@@ -58,7 +63,7 @@ public class Main {
 		gestionevideo.caricaVideo(v2);
 		gestionevideo.caricaVideo(v3);
 		gestionevideo.caricaVideo(v4);
-
+		gestionevideo.caricaVideo(v5);
 		ArrayList<Video> v_ricerca = gestionevideo.ricercaVideo(Sport.CALCIO, "Samp");
 
 
