@@ -56,7 +56,7 @@ public class Main {
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
 
-
+		v4.addGiornalista(new Giornalista("MODIFICALOCALE", "PLUTO"));
 
 
 		gestionevideo.caricaVideo(v1);
