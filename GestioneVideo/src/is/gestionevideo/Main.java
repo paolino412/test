@@ -37,7 +37,8 @@ public class Main {
 		data_evento = LocalDate.of(2019, Month.DECEMBER, 7);
 
 		VideoEvento v5 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
-
+         
+		System.out.println("aggiungo una funzione");
 
 		nome_evento = "Partita Napoli-Sampdoria";
 
