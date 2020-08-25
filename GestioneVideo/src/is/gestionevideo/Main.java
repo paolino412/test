@@ -59,7 +59,7 @@ public class Main {
 
 		v4.addGiornalista(new Giornalista("MODIFICALOCALE", "MODIFICAREMOTA"));
  
-                System.out.println("un bug-fix");
+                System.out.println("un bug-fix sul branch master");
 
  
 
